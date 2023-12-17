@@ -1,0 +1,54 @@
+.menu-icon {
+    background-color: transparent;
+    z-index: 11;
+    color: white;
+    padding: 0;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    transition: transform 0.3s ease;
+}
+
+.menu-icon.active {
+    transform: rotate(90deg);
+}
+
+.dropdown-content {
+    pointer-events: none;
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 1%;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white with slight blur */
+    backdrop-filter: blur(5px);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    z-index: 10;
+    transform: translateY(-100%);
+    opacity: 0;
+    padding: 10px 0;
+}
+
+.dropdown-content.active {
+    pointer-events: auto;
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.dropdown-content button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Produckt', Light; /* Update as needed */
+}
