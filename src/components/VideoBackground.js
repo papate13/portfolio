@@ -11,6 +11,9 @@ const VideoBackground = () => {
     if (audioRef.current && !isAudioMuted) {
       audioRef.current.play().catch(error => console.error('Error playing audio:', error));
     }
+    if (audioRef.current) {
+      audioRef.current.volume = 0.75;
+    }
   }, [isAudioMuted]);
 
   const toggleAudioMute = () => {

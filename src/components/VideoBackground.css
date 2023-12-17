@@ -4,12 +4,11 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-/* Video background container styles */
 .video-container {
     width: 100vw;
     height: 100vh;
     position: relative;
-    overflow: hidden; /* Add this line to hide overflowing elements */
+    overflow: hidden; 
 }
 
 .video-container video {
@@ -39,7 +38,7 @@ body, html {
     cursor: pointer;
     border: none;
     position: fixed;
-    top: 2%;
-    left: 2%;
+    top: 2.3%;
+    left: 1%;
     z-index: 11;
 }

@@ -7,27 +7,28 @@
     cursor: pointer;
     border: none;
     position: fixed;
-    top: 2%;
-    right: 2%;
-    transition: transform 0.3s ease;
+    top: 2.3%;
+    right: 1%;
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
 }
 
-.menu-icon.active {
-    transform: rotate(90deg);
+.menu-icon.open {
+    transform: rotate(0deg);
 }
 
 .dropdown-content {
     pointer-events: none;
     display: flex;
-    flex-direction: row; /* Align items horizontally */
+    flex-direction: row; 
     justify-content: space-around;
     align-items: center;
     position: fixed;
     top: 1%;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white with slight blur */
-    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0); 
+    backdrop-filter: blur(10px);
     transition: transform 0.5s ease, opacity 0.5s ease;
     z-index: 10;
     transform: translateY(-100%);
@@ -50,5 +51,5 @@
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
-    font-family: 'Produckt', Light; /* Update as needed */
+    font-family: 'Produckt', Light; 
 }
