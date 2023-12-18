@@ -34,7 +34,7 @@ body, .main-wrapper {
     scroll-margin-top: calc(50px + 20px); 
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
-    overflow-y:scroll;
+    overflow-y: auto;
     position: fixed;
     height: calc(100vh - 50px);
     display: flex;
