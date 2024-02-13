@@ -51,7 +51,7 @@ const Profile = () => {
           </a>
         </div>
         
-        <h1 className="profile-subheader">Contact Me!</h1>
+        <h1 className="profile-subheader">*work in progress*</h1>
         <div className="contact-container">
           <ContactForm />
         </div>
@@ -64,6 +64,15 @@ const Profile = () => {
             <h1 className="profile-name">Preet Patel</h1>
             <h2 className="profile-title">Software Engineering Student</h2>
           </div>
+        </div>
+      </div>
+
+      <div className="profile-hobbies">
+        <div className="hobbies-section">
+          <h1 className="profile-subheader">Hobbies & Interests</h1>
+          <p>
+            My passion for the outdoors comes alive through activities like hiking and camping. On the field, soccer is where I actively immerse myself, valuing participation over spectating. This enthusiasm for engagement extends to my projects, where creating and building are not just tasks but opportunities to enhance my problem-solving skills and practical knowledge.
+          </p>
         </div>
       </div>
 

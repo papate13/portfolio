@@ -1,4 +1,56 @@
-.profile-container {
-    padding-top: 5%; 
-    
+.courses-container {
+    color: white;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.courses-header {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.course-item {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    padding: 10px; /* Adjust padding */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    overflow: hidden; /* Hide expanded content initially */
+    transition: height 0.3s ease; /* Transition for height change */
+}
+
+.course-item h3 {
+    color: #fff;
+    font-size: 20px; /* Adjust font size */
+    margin: 0;
+    text-align: center;
+}
+
+.course-details {
+    text-align: center; 
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Initial state hidden, will be shown on click */
+    display: none; /* Hide details initially */
+}
+
+.course-detail-item {
+    margin-bottom: 5px;
+}
+
+/* Styles when the course item is open */
+.course-item.open {
+    padding: 15px; /* More padding when open */
+    height: auto; /* Auto height to fit content */
+}
+
+.course-item.open .course-details {
+    display: block; /* Show details when open */
 }

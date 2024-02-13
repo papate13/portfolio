@@ -12,10 +12,31 @@ body, .main-wrapper {
 
 .profile-container {
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: calc(100vh - 50px); 
     padding-top: 50px; 
     box-sizing: border-box;
+}
+
+.profile-hobbies {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    margin-top: -50%;
+}
+
+.hobbies-section {
+    background-color: rgba(255, 255, 255, 0.3); 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 40%; 
+    max-width: 800px; 
+    text-align: center; 
 }
 
 .profile-main {
