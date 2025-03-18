@@ -23,13 +23,22 @@ const CourseItem = ({ title, courses }) => {
 const Courses = () => {
   const courseData = {
     SER : [
-      { id: "SER 334", name: "Software Systems Operating Systems&System Prog", year: "2024" },
+      { id: "SER 463", name: "Intro to Human Computer Interaction", year: "2025" },
+      { id: "SER 450", name: "Computer Architecture", year: "2025" },
+      { id: "SER 423", name: "Mobile Systems", year: "2025" },
+      { id: "SER 416", name: "Software Enterprise: Project & Process Management", year: "2024" },
+      { id: "SER 415", name: "Software Enterprise: Inception", year: "2024"},
+      { id: "SER 402", name: "Computing Capstone I", year: "2025"},
+      { id: "SER 401", name: "Computing Captsone I", year: "2024" },
+      { id: "SER 335", name: "Engineering Secure Systems", year: "2024" },
+      { id: "SER 334", name: "Software Systems Operating Systems & System Programming", year: "2024" },
+      { id: "SER 322", name: "Database Management", year: "2024"},
       { id: "SER 321", name: "Principles and Practices of Software Engineering", year: "2024" },
-      { id: "SER 316", name: "Software Enterprise: Cnstrct", year: "2024" },
-      { id: "SER 315", name: "Software Enterprise: Dsgn&Proc", year: "2024" },
+      { id: "SER 316", name: "Software Enterprise: Construction & Transition", year: "2024" },
+      { id: "SER 315", name: "Software Enterprise: Tool & Process", year: "2024" },
       { id: "SER 232", name: "Computer Systems Fundamentals", year: "2023" },
-      { id: "SER 222", name: "Dsgn & Analy: Data Strs & Algo", year: "2023" },
-      { id: "SER 216", name: "Sftware Enterpr: PersProc&Qual", year: "2023" }
+      { id: "SER 222", name: "Design & Analysis: Data Structures & Algorithms", year: "2023" },
+      { id: "SER 216", name: "Software Enterprise: Perssonal Process & Quality", year: "2023" }
     ],
     CSE: [
       { id: "CSE 240", name: "Intro to Programming Languages", year: "2023" },
@@ -38,11 +47,14 @@ const Courses = () => {
       { id: "CSE 110", name: "Principles of Programming", year: "2022" }
     ],
     MAT: [
+      { id: "MAT 343", name: "Linear Algebra", year: "2024" },
       { id: "MAT 267", name: "Calculus for Engineers III", year: "2023" },
       { id: "MAT 243", name: "Discrete Math Structures", year: "2022" }
     ],
     EGR: [
+      { id: "FSE 301", name: "Entrepreneur & Value Creation", year: "2025" },
       { id: "EGR 280", name: "Engineering Statistics", year: "2023" },
+      { id: "EGR 104", name: "Critical Inquiry in Engineering", year: "2025" },
       { id: "FSE 100", name: "Intro to Engineering", year: "2024"}
     ]
     // Add other course categories
